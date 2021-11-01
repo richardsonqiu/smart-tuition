@@ -199,6 +199,11 @@ Footer
 ======
 */
 
+footer {
+    background-color: var(--cream);
+}
+
+
 footer h6{
     font-weight: bold;
     color: var(--redDark);
