@@ -82,6 +82,11 @@ a {
     color: var(--dark);
 }
 
+a:hover {
+    text-decoration: none;
+    color: var(--mainWhite);
+}
+
 img {
     width: 100%;
     display: block;

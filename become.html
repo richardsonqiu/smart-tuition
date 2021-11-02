@@ -55,7 +55,8 @@
                 </li>
             </ul>
         </div>
-        <button type="button" class="btn btn-filled-red">Request a Tutor</button>
+        <!-- <button type="button" class="btn btn-filled-red">Request a Tutor</button> -->
+        <a href="request.html" class="btn btn-filled-red">Request a Tutor</a>
     </nav>
 
     <div class="container-fluid wrap">
@@ -95,9 +96,17 @@
                     <h5>Get insights to the latest practice questions</h5>
                 </div>
                 <div class="col-4">
-                    <form action="/subscription.php" class="btn">
-                        <input class="subscribe" type="email" id="email" name="email" placeholder="youremail@gmail.com" required />
-                        <input class="btn" type="submit" value="Subscribe" />
+                    <form action="/subscription.php">
+                        <!-- <input class="subscribe" type="email" id="email" name="email" placeholder="youremail@gmail.com" required />
+                        <input class="btn" type="submit" value="Subscribe" /> -->
+                        <div class="input-group mb-3 col-xs-5">
+                            <input type="text" class="form-control col-7" placeholder="youremail@email.com" />
+                            <div class="input-group-append">
+                                <button class="btn btn-filled-red" type="button">
+                    Join us now!
+                  </button>
+                            </div>
+                        </div>
                     </form>
                 </div>
             </div>
@@ -125,22 +134,22 @@
 
                 <div class="col-lg-4">
                     <h6>Quick Links</h6>
-                    <a href=".html">
+                    <a href="subjects.html">
                         <p>Subjects</p>
                     </a>
-                    <a href=".html">
+                    <a href="tutors.html">
                         <p>Our Tutors</p>
                     </a>
                     <a href="packages.html">
                         <p>Tuition Packages</p>
                     </a>
-                    <a href=".html">
+                    <a href="about.html">
                         <p>About</p>
                     </a>
-                    <a href=".html">
+                    <a href="become.html">
                         <p>Become a Tutor</p>
                     </a>
-                    <a href=".html">
+                    <a href="request.html">
                         <p>Request a Tutor</p>
                     </a>
                 </div>
