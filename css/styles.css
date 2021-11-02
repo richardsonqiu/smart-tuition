@@ -28,6 +28,7 @@ Variables
     --fullWidth: 1170px;
 }
 
+
 /*
 ======
 Global Styles
@@ -59,9 +60,13 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: var(--slantedFont);
+    /* font-family: var(--slantedFont); */
     margin-bottom: 1.25rem;
-    letter-spacing: var(--mainSpacing);
+    /* letter-spacing: var(--mainSpacing); */
+}
+
+h1 {
+    font-weight: 700;
 }
 
 p {
@@ -83,14 +88,18 @@ img {
 }
 
 .logo {
-  width: 1.5rem;
-  display: inline-block;
+    width: 1.5rem;
+    display: inline-block;
 }
 
 .logo-title {
-  color: var(--redDark);
-  font-size: 1.25rem;
-  font-weight: 700;
+    color: var(--redDark);
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.emphasize {
+    color: var(--redDark);
 }
 
 
@@ -140,16 +149,18 @@ Navbar
     text-underline-offset: 0.5rem;
 }
 
+
 /*
 ======
 Icon
 ======
 */
 
-.icon-48 img{
+.icon-48 img {
     height: 48px;
     width: 48px;
 }
+
 
 /*
 ======
@@ -157,41 +168,46 @@ Buttons
 ======
 */
 
-.btn,
-.btn-linear {
-    color: var(--mainWhite);
-    border: none;
-    padding: 0.45rem 0.8rem;
+.btn {
     display: inline-block;
     transition: var(--mainTransition);
     cursor: pointer;
     font-size: 0.8rem;
-    background: var(--redLinear);
     border-radius: var(--lgBorderRadius);
+    padding: 0.45rem 0.8rem;
     font-weight: 700;
 }
 
-.btn-unfilled{
-    color: var(--redLight);
-    border: var(--lgBorderRadius);
-    background: transparent;
-    border-color: var(--redLight);
-    font-weight: 700;
-}
-/* .btn:hover {
-    background: var(--primaryColor);
+.btn-filled-red {
     color: var(--mainWhite);
-} */
-
-/* .btn-primary {
-    background: var(--primaryColor);
-    color: var(--mainWhite)
+    background: var(--redLinear);
+    border: none;
+    padding: 0.6rem 0.8rem;
 }
 
-.btn-primary:hover {
-    background: var(--primaryLightColor);
-    color: var(--primaryColor)
-} */
+.btn-filled-white {
+    color: var(--redDark);
+    background: var(--mainWhite);
+    border: none;
+    padding: 0.6rem 0.8rem;
+}
+
+.btn-unfilled-red {
+    color: var(--redLight);
+    background: transparent;
+    border: 2px solid var(--redLight);
+}
+
+.btn-unfilled-white {
+    color: var(--mainWhite);
+    background: transparent;
+    border: 2px solid var(--mainWhite);
+}
+
+.btn:hover {
+    opacity: 80%;
+}
+
 
 /*
 ======
@@ -203,8 +219,7 @@ footer {
     background-color: var(--cream);
 }
 
-
-footer h6{
+footer h6 {
     font-weight: bold;
     color: var(--redDark);
 }
