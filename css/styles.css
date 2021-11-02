@@ -102,6 +102,17 @@ img {
     color: var(--redDark);
 }
 
+.form-control {
+    border-radius: var(--lgBorderRadius);
+    color: var(--redDark);
+    border: 2px solid var(--redDark);
+}
+
+.form-control::placeholder {
+    color: red;
+    font-size: 0.8rem;
+}
+
 
 /*
 ======
