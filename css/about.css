@@ -1,0 +1,101 @@
+.curved-box {
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+.banner {
+    background: var(--redDarkLinear);
+}
+
+.banner-desc {
+    background-color: var(--mainWhite);
+}
+
+.banner-desc img {
+    margin-bottom: 0.25rem;
+    height: 48px;
+    width: 48px;
+}
+
+.banner-desc h1 {
+    margin-bottom: 0.25rem;
+    font-size: 2.5em;
+    color: var(--redDark);
+}
+
+.banner-desc p {
+    font-size: 1.5em;
+    font-weight: 400;
+    color: var(--dark);
+}
+
+.about {
+    background: var(--cream);
+}
+
+.about h1 {
+    margin-bottom: 3rem;
+}
+
+.about p {
+    font-size: 1.2em;
+    font-weight: 400;
+    margin: 0;
+}
+
+.about p strong {
+    font-weight: 400;
+    color: var(--redDark);
+}
+
+.about-item {
+    margin-bottom: 2rem;
+}
+
+.about-item img {
+    display: block;
+    width: 72px;
+}
+
+.about-item p {
+    flex: 1;
+}
+
+.our-mission {
+    background: var(--mainWhite);
+    font-size: 2.25em;
+}
+
+.our-mission h1 {
+    margin-bottom: 3rem;
+}
+
+
+.our-mission .curved-box {
+    background: var(--redDark);
+}
+
+.our-mission p {
+    margin: 0;
+    font-weight: 400;
+    color: white;
+}
+
+.what-we-do {
+    background: var(--cream);
+}
+
+.what-we-do h2 {
+    font-weight: bold;
+}
+
+.what-we-do strong {
+    color: var(--redDark);
+}
+
+.what-we-do p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 1.5em;
+    color: var(--gray);
+}

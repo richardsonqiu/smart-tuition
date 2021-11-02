@@ -9,6 +9,7 @@ Variables
     --redMedium: #FA6970;
     --redLight: #FE969C;
     --redLinear: linear-gradient(180deg, #FEBEC1 0%, #F9595F 100%);
+    --redDarkLinear: linear-gradient(180deg, #FE969C 0%, #FA5961 100%);
     --mainWhite: #fff;
     --lighterCream: #FFFEFD;
     --cream: #FFFAF6;
