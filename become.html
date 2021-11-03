@@ -25,6 +25,8 @@
     <!-- Favicon -->
     <link href="./imgs/favicon_io/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <title>Smart Tuition</title>
+
+    <script type="text/javascript" src="js/carousel.js"></script>
 </head>
 
 <body>
@@ -59,34 +61,247 @@
         <a href="request.html" class="btn btn-filled-red">Request a Tutor</a>
     </nav>
 
-    <div class="container-fluid wrap">
-        <div class="row align-items-center">
-            <div class="col-8">
-                <div class="flex-row">
-                    <h1>
-                        Become an online tutor <br />
-                        <span class="emphasize">with Smart Tuition!</span>
-                    </h1>
-                    <!-- <h1 class="emphasize">with Smart Tuition!</h1> -->
-                    <h5>
-                        <span class="emphasize">Our 75+ tutors</span> have already made their impact <br /> on our <span class="emphasize">13.8k+ enrolled students</span>
-                    </h5>
-                    <div class="input-group mb-3 col-xs-4">
-                        <input type="text" class="form-control col-4" placeholder="Your email address" />
-                        <div class="input-group-append">
-                            <button class="btn btn-filled-red" type="button">
-                  Join us now!
-                </button>
+    <section>
+        <div class="container-fluid wrap cream-bg">
+            <div class="row align-items-center wrap">
+                <div class="col-8">
+                    <div class="flex-row">
+                        <h1>
+                            Become an online tutor <br />
+                            <span class="emphasize">with Smart Tuition!</span>
+                        </h1>
+                        <!-- <h1 class="emphasize">with Smart Tuition!</h1> -->
+                        <h5>
+                            <span class="emphasize">Our 75+ tutors</span> have already made their impact <br /> on our <span class="emphasize">13.8k+ enrolled students</span>
+                        </h5>
+                        <div class="input-group mb-3 col-xs-4">
+                            <input type="text" class="form-control col-4" placeholder="Your email address" />
+                            <div class="input-group-append">
+                                <button class="btn btn-filled-red" type="button">
+                    Join us now!
+                  </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <img src="imgs/become/become-banner-girl.png" />
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid wrap">
+            <div class="row align-items-center">
+                <div class="col-4">
+                    <div class="flex-row">
+                        <h1>
+                            Why join <br />
+                            <span class="emphasize">Smart Tuition?</span>
+                        </h1>
+                    </div>
+                </div>
+
+                <div class="col-lg-8 icon-48">
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="imgs/become/smile-icon.png" />
+                            <h5 class="title">Subject Experts</h5>
+                            <p>
+                                Get that warm fuzzy feeling of <br />helping students excel academically!
+                            </p>
+                        </div>
+                        <div class="col-6">
+                            <img src="imgs/become/money-icon.png" />
+                            <h5 class="title">Competitive Salary</h5>
+                            <p>
+                                Earn $50-150/h depending on<br />your skillsets and experiences
+                            </p>
+                        </div>
+                    </div>
+                    <br />
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="imgs/become/calendar-icon.png" />
+                            <h5 class="title">Flexible Schedule</h5>
+                            <p>Set your own working hours.<br />No maximum. No minimum.</p>
+                        </div>
+                        <div class="col-6">
+                            <img src="imgs/become/building-icon.png" />
+                            <h5 class="title">Convenient & Safe</h5>
+                            <p>
+                                No travel required. Teach fully<br />online. Anywhere. Anytime.
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <div class="col-4">
-                <img src="imgs/become/become-banner-girl.png" />
+        <div class="container-fluid wrap cream-bg">
+            <div class="wrap">
+                <div class="row justify-content-center">
+                    <h1>How to join <span class="emphasize">Smart Tuition?</span></h1>
+                </div>
+                <br />
+                <div class="row icon-48">
+                    <div class="col-3">
+                        <img src="imgs/become/form-icon.png" alt="" />
+                        <h5 class="title">1. Apply</h5>
+                        <p>
+                            Simply fill in our application form.<br />We would like to know about you!
+                        </p>
+                    </div>
+                    <div class="col-3">
+                        <img src="imgs/become/form2-icon.png" alt="" />
+                        <h5 class="title">2. Online Assessment</h5>
+                        <p>
+                            Initial Screening to make sure<br />your skillsets suit our tutors' standards
+                        </p>
+                    </div>
+                    <div class="col-3">
+                        <img src="imgs/become/teach-icon.png" alt="" />
+                        <h5 class="title">3. Teaching Demo</h5>
+                        <p>
+                            This is the chance for you to<br />showcase your teaching skills!
+                        </p>
+                    </div>
+                    <div class="col-3">
+                        <img src="imgs/become/teach2-icon.png" alt="" />
+                        <h5 class="title">4. Start Teaching and Earning</h5>
+                        <p>
+                            Get matched and start your first<br />tutoring lesson within 72h!
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
+
+        <!-- <div class="row d-flex justify-content-around">
+            <div class="btn-arrow btn-filled-red carousel-btn-prev" onclick="movePrev()">
+                <</div>
+                    <div class="btn-arrow btn-filled-red carousel-btn-next" onclick="moveNext()">></div>
+            </div>
+        </div> -->
+
+        <div class="container-fluid wrap">
+            <div class="carousel-wrapper wrap">
+                <div class="carousel">
+                    <div class="row align-items-center">
+                        <div class="col-4">
+                            <img src="imgs/become/tutor-testi1.png" />
+                        </div>
+                        <div class="col-8">
+                            <div class="flex-row">
+                                <h1>What <span class="emphasize">our tutors</span> say</h1>
+                                <p>
+                                    “Smart Tuition has given me an opportunity to tutor a number of different subjects. For me, it is a great part time job as it’s flexible and ideal alongside studying at uni. It’s also been a chance to gain some experience in something new, and I’ve really
+                                    enjoyed teaching, supporting, and getting to know a number of students.”
+                                </p>
+                                <div class="row">
+                                    <div class="col-9">
+                                        <p>
+                                            <strong>Rebecca Tan</strong><br />Smart Tuition Tutor since 2019
+                                        </p>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="row d-flex justify-content-around">
+                                            <div class="btn-arrow btn-filled-red carousel-btn-prev">
+                                                < </div>
+                                                    <div class="btn-arrow btn-filled-red carousel-btn-next">
+                                                        >
+                                                    </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="row align-items-center carousel-item">
+                        <div class="col-4">
+                            <img src="imgs/become/tutor-testi1.png" />
+                        </div>
+                        <div class="col-8">
+                            <div class="flex-row">
+                                <h1>What <span class="emphasize">our tutors</span> say</h1>
+                                <p>
+                                    “Smart Tuition has given me an opportunity to tutor a number of different subjects. For me, it is a great part time job as it’s flexible and ideal alongside studying at uni. It’s also been a chance to gain some experience in something new, and I’ve really
+                                    enjoyed teaching, supporting, and getting to know a number of students.”
+                                </p>
+                                <div class="row">
+                                    <div class="col-9">
+                                        <p>
+                                            <strong>Rebecca Tan</strong><br />Smart Tuition Tutor since 2019
+                                        </p>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="row d-flex justify-content-around">
+                                            <div class="btn-arrow btn-filled-red carousel-btn-prev">
+                                                <</div>
+                                                    <div class="btn-arrow btn-filled-red carousel-btn-next">></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row align-items-center carousel-item">
+                        <div class="col-4">
+                            <img src="imgs/become/tutor-testi1.png" />
+                        </div>
+                        <div class="col-8">
+                            <div class="flex-row">
+                                <h1>What <span class="emphasize">our tutors</span> say</h1>
+                                <p>
+                                    “Smart Tuition has given me an opportunity to tutor a number of different subjects. For me, it is a great part time job as it’s flexible and ideal alongside studying at uni. It’s also been a chance to gain some experience in something new, and I’ve really
+                                    enjoyed teaching, supporting, and getting to know a number of students.”
+                                </p>
+                                <div class="row">
+                                    <div class="col-9">
+                                        <p>
+                                            <strong>Rebecca Tan</strong><br />Smart Tuition Tutor since 2019
+                                        </p>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="row d-flex justify-content-around">
+                                            <div class="btn-arrow btn-filled-red carousel-btn-prev">
+                                                <</div>
+                                                    <div class="btn-arrow btn-filled-red carousel-btn-next">></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+
+            <div class="container-fluid wrap cream-bg">
+                <img src="imgs/rocket.png" alt="rocket-image" class="rocket" />
+                <div class="red-bg">
+                    <div class="row align-items-center wrap">
+                        <div class="col-2"></div>
+                        <div class="col-6">
+                            <h3 class="white-title">Still unsure?</h3>
+                            <h5 class="white-desc">
+                                Read our FAQ for Tutors or simply contact us!
+                            </h5>
+                        </div>
+                        <div class="col-3">
+                            <div class="row d-flex justify-content-around">
+                                <a href="#" class="btn btn-filled-white">Read FAQ</a>
+                                <a href="#" class="btn btn-unfilled-white">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
 
     <footer>
         <div class="container-fluid wrap">
@@ -166,6 +381,8 @@
             </div>
         </div>
     </footer>
+
+    <script type="text/javascript" src="js/carousel.js"></script>
 </body>
 
 </html>
