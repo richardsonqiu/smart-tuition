@@ -1,0 +1,685 @@
+<html>
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Awesome font -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
+
+    <!-- GoogleFonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap" rel="stylesheet" />
+    <!-- Bootstrap CSS -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/request.css" rel="stylesheet" />
+
+    <!-- Favicon -->
+    <link href="./imgs/favicon_io/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+    <!-- JS and JQuery -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script> -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js" integrity="sha512-0QbL0ph8Tc8g5bLhfVzSqxe9GERORsKhIn1IrpxDAgUsbBGz/V7iSav2zzW325XGd1OMLdL4UiqRJj702IeqnQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+
+    <script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js'></script>
+
+
+    <script type="text/javascript" src="js/request.js"></script>
+    <title>Smart Tuition</title>
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand itemtitle" href="index.html"><img src="./imgs/favicon_io/favicon-32x32.png" class="logo" />&nbsp;
+            <span class="logo-title">Smart Tuition</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+            <ul class="navbar-nav nav-links justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link item" href="subjects.html">Subjects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link item" href="tutors.html">Our Tutors</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link item" href="packages.html">Tuition Package</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link item" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link item" href="become.html">Become a Tutor</a>
+                </li>
+            </ul>
+        </div>
+        <!-- <button type="button" class="btn btn-filled-red">Request a Tutor</button> -->
+        <a href="request.html" class="btn btn-filled-red">Request a Tutor</a>
+    </nav>
+
+    <section>
+        <div class="container-fluid wrap cream-bg">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-6 d-flex flex-column left-banner">
+                        <h1 class="title">Request a Tutor</h1>
+                        <p>Let us find the perfect tutor for your child</p>
+                        <img src="imgs/become/request-banner.png" alt="Mom and Kid Learn Together" id="banner-img" />
+                    </div>
+                    <div class="col-6">
+                        <form action="#" id="reqform">
+                            <ul id="progressbar">
+                                <li class="col-3 active">
+                                    <p class="progressno">1 Personal</p>
+                                    <!-- <p>Personal</p> -->
+                                </li>
+                                <li class="col-3">
+                                    <p class="progressno">2 Packages</p>
+                                    <!-- <p>Packages</p> -->
+                                </li>
+                                <li class="col-3">
+                                    <p class="progressno">3 Schedule</p>
+                                    <!-- <p>Schedule</p> -->
+                                </li>
+                            </ul>
+
+                            <!-- 1ST PERSONAL DETAILS -->
+                            <fieldset>
+                                <div class="row d-flex justify-content-center">
+                                    <h3 class="fs-title">Personal Details</h3>
+                                </div>
+                                <div class="row">
+                                    <h5>Tutee's name</h5>
+                                    <input type="text" name="name" placeholder="Please enter your child's name" />
+                                    <h5>Your phone number</h5>
+                                    <input type="text" name="phone" placeholder="Please enter your phone number" />
+                                    <h5>Your email address</h5>
+                                    <input type="email" name="email" placeholder="Please enter your email" />
+                                    <br />
+                                </div>
+                                <div class="row d-flex justify-content-end">
+                                    <input type="button" name="next" class="btn btn-filled-red action-btn next" value="Next" />
+                                </div>
+                            </fieldset>
+
+                            <!-- 2ND PACKAGE DETAILS -->
+                            <fieldset>
+                                <div class="row d-flex justify-content-center">
+                                    <h3 class="fs-title">Package Details</h3>
+                                </div>
+                                <div class="row d-flex justify-content-between">
+                                    <h5>Choose Package</h5>
+                                    <a href="packages.html">Learn more</a>
+                                </div>
+                                <ul>
+                                    <li>
+                                        <input type="radio" name="radio" value="scholar" id="scholar" />
+                                        <label for="scholar" class="btn btn-radio btn-scholar"><strong>Scholar<br />(30% off)</strong><br /><span
+                          class="radio-desc"
+                          >All Subjects</span
+                        ></label
+                      >
+                    </li>
+                    <li>
+                      <input
+                        type="radio"
+                        name="radio"
+                        value="learner"
+                        id="learner"
+                      />
+                      <label for="learner" class="btn btn-radio btn-learner"
+                        ><strong>Learner<br />(15% off)</strong><br /><span
+                          class="radio-desc"
+                          >2 Subjects</span
+                        ></label
+                      >
+                    </li>
+                    <li>
+                      <input
+                        type="radio"
+                        name="radio"
+                        value="standard"
+                        id="standard"
+                      />
+                      <label for="standard" class="btn btn-radio btn-standard"
+                        ><strong>Standard<br />($10 off)</strong><br /><span
+                          class="radio-desc"
+                          >1 Subject</span
+                        ></label
+                      >
+                    </li>
+                  </ul>
+
+                  <div class="row">
+                    <h5>Choose Subject(s)</h5>
+                  </div>
+                  <div class="row d-flex justify-content-center">
+                    <div class="col-4 justify-content-center">
+                      <div
+                        class="
+                          row
+                          d-flex
+                          flex-column
+                          align-items-center
+                          justify-content-center
+                          align-center
+                        "
+                      >
+                        <h6 class="text-center">Primary</h6>
+                      </div>
+                      <div class="row d-flex justify-content-center">
+                        <ul class="checkbox">
+                          <li>
+                            <input
+                              type="checkbox"
+                              name="sub-check"
+                              value="p-english"
+                              id="p-english"
+                              class="subject-checkbox"
+                            />
+                            <label
+                              for="p-english"
+                              class="btn btn-radio btn-check"
+                              >English</label
+                            >
+                          </li>
+                          <li>
+                            <input
+                              type="checkbox"
+                              name="sub-check"
+                              value="p-math"
+                              id="p-math"
+                              class="subject-checkbox"
+                            />
+                            <label for="p-math" class="btn btn-radio btn-check"
+                              >Math</label
+                            >
+                          </li>
+                          <li>
+                            <input
+                              type="checkbox"
+                              name="sub-check"
+                              value="p-science"
+                              id="p-science"
+                              class="subject-checkbox"
+                            />
+                            <label
+                              for="p-science"
+                              class="btn btn-radio btn-check"
+                              >Science</label
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div class="col-4 justify-content-center">
+                      <div class="row d-flex justify-content-center">
+                        <h6 class="text-center">Lower<br />Secondary</h6>
+                      </div>
+                      <div class="row d-flex justify-content-center">
+                        <ul class="checkbox">
+                          <li>
+                            <input
+                              type="checkbox"
+                              name="sub-check"
+                              value="ls-english"
+                              id="ls-english"
+                              class="subject-checkbox"
+                            />
+                            <label
+                              for="ls-english"
+                              class="btn btn-radio btn-check"
+                              >English</label
+                            >
+                          </li>
+                          <li>
+                            <input
+                              type="checkbox"
+                              name="sub-check"
+                              value="ls-math"
+                              id="ls-math"
+                              class="subject-checkbox"
+                            />
+                            <label for="ls-math" class="btn btn-radio btn-check"
+                              >Math</label
+                            >
+                          </li>
+                          <li>
+                            <input
+                              type="checkbox"
+                              name="sub-check"
+                              value="ls-science"
+                              id="ls-science"
+                              class="subject-checkbox"
+                            />
+                            <label
+                              for="ls-science"
+                              class="btn btn-radio btn-check"
+                              >Science</label
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div class="col-4 justify-content-center">
+                      <div class="row d-flex justify-content-center">
+                        <h6 class="text-center">Upper <br />Secondary</h6>
+                      </div>
+                      <div class="row d-flex justify-content-center">
+                        <ul class="checkbox">
+                          <li>
+                            <input
+                              type="checkbox"
+                              name="sub-check"
+                              value="us-english"
+                              id="us-english"
+                              class="subject-checkbox"
+                            />
+                            <label
+                              for="us-english"
+                              class="btn btn-radio btn-check"
+                              >English</label
+                            >
+                          </li>
+                          <li>
+                            <input
+                              type="checkbox"
+                              name="sub-check"
+                              value="us-math"
+                              id="us-math"
+                              class="subject-checkbox"
+                            />
+                            <label for="us-math" class="btn btn-radio btn-check"
+                              >Math</label
+                            >
+                          </li>
+                          <li>
+                            <input
+                              type="checkbox"
+                              name="sub-check"
+                              value="us-physics"
+                              id="us-physics"
+                              class="subject-checkbox"
+                            />
+                            <label
+                              for="us-physics"
+                              class="btn btn-radio btn-check"
+                              >Physics</label
+                            >
+                          </li>
+                          <li>
+                            <input
+                              type="checkbox"
+                              name="sub-check"
+                              value="us-biology"
+                              id="us-biology"
+                              class="subject-checkbox"
+                            />
+                            <label
+                              for="us-biology"
+                              class="btn btn-radio btn-check"
+                              >Biology</label
+                            >
+                          </li>
+                          <li>
+                            <input
+                              type="checkbox"
+                              name="sub-check"
+                              value="us-chemistry"
+                              id="us-chemistry"
+                              class="subject-checkbox"
+                            />
+                            <label
+                              for="us-chemistry"
+                              class="btn btn-radio btn-check"
+                              >Chemistry</label
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <br />
+                  <div class="row d-flex justify-content-between">
+                    <input
+                      type="button"
+                      name="prev"
+                      class="btn btn-unfilled-red action-btn prev"
+                      value="Previous"
+                    />
+
+                    <input
+                      type="button"
+                      name="next"
+                      class="btn btn-filled-red action-btn next"
+                      value="Next"
+                    />
+                  </div>
+                </fieldset>
+
+                <!-- 3RD SCHEDULE -->
+                <fieldset>
+                  <div class="row d-flex justify-content-center">
+                    <h3 class="fs-title">Schedule Details</h3>
+                  </div>
+                  <div class="row d-flex justify-content-between">
+                    <div class="col-5 nopadding">
+                      <h5>Tuition start date</h5>
+                      <input type="date" name="start-date" />
+                    </div>
+                    <div class="col-5 nopadding">
+                      <h5>Choose term</h5>
+                      <select class="form-select">
+                        <option selected>Select term</option>
+                        <option value="1">Term I: 4 Jan - 12 Mar</option>
+                        <option value="2">Term II: 22 Mar - 28 May</option>
+                        <option value="3">Term III: 28 Jun - 3 Sep</option>
+                        <option value="4">Term IV: 13 Sep - 19 Nov</option>
+                      </select>
+                    </div>
+                    <br />
+                  </div>
+
+                  <div class="row">
+                    <h5>Available timings</h5>
+                    <div class="table-full">
+                      <div class="table-responsive">
+                        <table class="table table-striped">
+                          <head>
+                            <tr class="table-title">
+                              <th scope="col">Slots</th>
+                              <th scope="col">Mon</th>
+                              <th scope="col">Tue</th>
+                              <th scope="col">Wed</th>
+                              <th scope="col">Thu</th>
+                              <th scope="col">Fri</th>
+                            </tr>
+                          </head>
+                          <tbody>
+                            <!-- 08-12h -->
+                            <tr>
+                              <th scope="row">08-12h</th>
+                              <td class="">
+                                <div class="custom-checkbox custom-control">
+                                  <input
+                                    type="checkbox"
+                                    class="custom-control-input"
+                                    id="11"
+                                  />
+                                  <label class="custom-control-label" for="11">
+                                  </label>
+                    </div>
+                    </td>
+                    <td class="">
+                        <div class="custom-checkbox custom-control">
+                            <input type="checkbox" class="custom-control-input" id="12" />
+                            <label class="custom-control-label" for="12">
+                                  </label>
+                        </div>
+                    </td>
+                    <td class="">
+                        <div class="custom-checkbox custom-control">
+                            <input type="checkbox" class="custom-control-input" id="13" />
+                            <label class="custom-control-label" for="13">
+                                  </label>
+                        </div>
+                    </td>
+                    <td class="">
+                        <div class="custom-checkbox custom-control">
+                            <input type="checkbox" class="custom-control-input" id="14" />
+                            <label class="custom-control-label" for="14">
+                                  </label>
+                        </div>
+                    </td>
+                    <td class="">
+                        <div class="custom-checkbox custom-control">
+                            <input type="checkbox" class="custom-control-input" id="15" />
+                            <label class="custom-control-label" for="15">
+                                  </label>
+                        </div>
+                    </td>
+                    </tr>
+
+                    <!--12-15h -->
+                    <tr>
+                        <th scope="row">12-15h</th>
+                        <td class="">
+                            <div class="custom-checkbox custom-control">
+                                <input type="checkbox" class="custom-control-input" id="21" />
+                                <label class="custom-control-label" for="21">
+                                  </label>
+                            </div>
+                        </td>
+                        <td class="">
+                            <div class="custom-checkbox custom-control">
+                                <input type="checkbox" class="custom-control-input" id="22" />
+                                <label class="custom-control-label" for="22">
+                                  </label>
+                            </div>
+                        </td>
+                        <td class="">
+                            <div class="custom-checkbox custom-control">
+                                <input type="checkbox" class="custom-control-input" id="23" />
+                                <label class="custom-control-label" for="23">
+                                  </label>
+                            </div>
+                        </td>
+                        <td class="">
+                            <div class="custom-checkbox custom-control">
+                                <input type="checkbox" class="custom-control-input" id="24" />
+                                <label class="custom-control-label" for="24">
+                                  </label>
+                            </div>
+                        </td>
+                        <td class="">
+                            <div class="custom-checkbox custom-control">
+                                <input type="checkbox" class="custom-control-input" id="25" />
+                                <label class="custom-control-label" for="25">
+                                  </label>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <!--15-18h -->
+                    <tr>
+                        <th scope="row">15-18h</th>
+                        <td class="">
+                            <div class="custom-checkbox custom-control">
+                                <input type="checkbox" class="custom-control-input" id="31" />
+                                <label class="custom-control-label" for="31">
+                                  </label>
+                            </div>
+                        </td>
+                        <td class="">
+                            <div class="custom-checkbox custom-control">
+                                <input type="checkbox" class="custom-control-input" id="32" />
+                                <label class="custom-control-label" for="32">
+                                  </label>
+                            </div>
+                        </td>
+                        <td class="">
+                            <div class="custom-checkbox custom-control">
+                                <input type="checkbox" class="custom-control-input" id="33" />
+                                <label class="custom-control-label" for="33">
+                                  </label>
+                            </div>
+                        </td>
+                        <td class="">
+                            <div class="custom-checkbox custom-control">
+                                <input type="checkbox" class="custom-control-input" id="34" />
+                                <label class="custom-control-label" for="34">
+                                  </label>
+                            </div>
+                        </td>
+                        <td class="">
+                            <div class="custom-checkbox custom-control">
+                                <input type="checkbox" class="custom-control-input" id="35" />
+                                <label class="custom-control-label" for="35">
+                                  </label>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <!--18-21h -->
+                    <tr>
+                        <th scope="row">18-21h</th>
+                        <td class="">
+                            <div class="custom-checkbox custom-control">
+                                <input type="checkbox" class="custom-control-input" id="41" />
+                                <label class="custom-control-label" for="41">
+                                  </label>
+                            </div>
+                        </td>
+                        <td class="">
+                            <div class="custom-checkbox custom-control">
+                                <input type="checkbox" class="custom-control-input" id="42" />
+                                <label class="custom-control-label" for="42">
+                                  </label>
+                            </div>
+                        </td>
+                        <td class="">
+                            <div class="custom-checkbox custom-control">
+                                <input type="checkbox" class="custom-control-input" id="43" />
+                                <label class="custom-control-label" for="43">
+                                  </label>
+                            </div>
+                        </td>
+                        <td class="">
+                            <div class="custom-checkbox custom-control">
+                                <input type="checkbox" class="custom-control-input" id="44" />
+                                <label class="custom-control-label" for="44">
+                                  </label>
+                            </div>
+                        </td>
+                        <td class="">
+                            <div class="custom-checkbox custom-control">
+                                <input type="checkbox" class="custom-control-input" id="45" />
+                                <label class="custom-control-label" for="45">
+                                  </label>
+                            </div>
+                        </td>
+                    </tr>
+                    </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="row d-flex justify-content-between">
+            <input type="button" name="prev" class="btn btn-unfilled-red action-btn prev" value="Previous" />
+
+            <input type="button" name="submit" class="btn btn-filled-red action-btn submit" value="Submit" />
+        </div>
+        </fieldset>
+
+        <!-- 4TH SUBMISSION DONE  -->
+        <fieldset>
+            <div class="row d-flex justify-content-center">
+                <h3 class="fs-title">
+                    Your submission has been well received!
+                </h3>
+            </div>
+            <div class="row d-flex justify-content-center text-center">
+                <img src="imgs/become/check-icon.png" alt="check-icon" style="width: 100px" />
+                <p>
+                    Please allow 2 working days for us to find the perfect tutor for your child
+                </p>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <a href="index.html" class="btn btn-filled-red">Go Back Home</a
+                    >
+                  </div>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container-fluid wrap"></div>
+
+      <div class="container-fluid wrap">
+        <div class="row">
+          <div class="col-lg-3">
+            <h6>
+              <img
+                src="./imgs/favicon_io/favicon-32x32.png"
+                class="logo"
+              />&nbsp; <span class="logo-title">Smart Tuition</span>
+            </h6>
+            <p>
+              Our mission is to bring your child to greater heights, not only
+              academically
+            </p>
+          </div>
+          <div class="col-1"></div>
+
+          <div class="col-lg-4">
+            <h6>Contacts</h6>
+            <p>Mon - Fri : 8.00am - 6.00pm</p>
+            <p>123 Orchard Central, #12-34</p>
+            <p>+65 8123 4567</p>
+            <p>info@smarttuition.com</p>
+          </div>
+
+          <div class="col-lg-4">
+            <h6>Quick Links</h6>
+            <a href="subjects.html">
+              <p>Subjects</p>
+            </a>
+                <a href="tutors.html">
+                    <p>Our Tutors</p>
+                </a>
+                <a href="packages.html">
+                    <p>Tuition Packages</p>
+                </a>
+                <a href="about.html">
+                    <p>About</p>
+                </a>
+                <a href="become.html">
+                    <p>Become a Tutor</p>
+                </a>
+                <a href="request.html">
+                    <p>Request a Tutor</p>
+                </a>
+            </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <p>All Rights Reserved 2021 &copy; Smart Tuition</p>
+                </div>
+                <div class="cols-4">
+                    <a href=".html">
+                        <p>Privacy Policy</p>
+                    </a>
+                </div>
+            </div>
+            </div>
+            </footer>
+
+            <script type="text/javascript" src="js/carousel.js"></script>
+</body>
+
+</html>

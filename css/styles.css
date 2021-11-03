@@ -13,7 +13,11 @@ Variables
     --lighterCream: #FFFEFD;
     --cream: #FFFAF6;
     --gray: #7B7A83;
+    --lighterGray: #a1a1a1;
     --dark: #0C162D;
+    /* Secondary Color */
+    --purple: #CF6AFA;
+    --orange: #FAA768;
     /* --mainBackground: #f1f5f8; */
     --mainBackground: #f1f8f6;
     --mainOverlay: rgba(35, 10, 36, 0.4);
@@ -59,9 +63,7 @@ h1,
 h2,
 h3,
 h4,
-h5,
 h6 {
-    /* font-family: var(--slantedFont); */
     margin-bottom: 1.25rem;
     /* letter-spacing: var(--mainSpacing); */
 }
@@ -81,12 +83,13 @@ ul {
 
 a {
     text-decoration: none;
+    font-weight: 400;
     color: var(--dark);
 }
 
 a:hover {
     text-decoration: none;
-    color: var(--mainWhite);
+    color: var(--redDark);
 }
 
 img {
@@ -260,8 +263,13 @@ Buttons
     border: 2px solid var(--mainWhite);
 }
 
-.btn:hover {
+.btn:hover,
+.btn:focus {
     opacity: 80%;
+}
+
+.btn:before {
+    color: var(--redDark);
 }
 
 .btn-arrow {
