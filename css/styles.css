@@ -89,6 +89,16 @@ a:hover {
     color: var(--mainWhite);
 }
 
+.programme h6{
+    padding: 20px 0;
+}
+.programme:hover h6 {
+    color: var(--redDark);
+}
+.programme:hover img {
+    opacity: 90%;
+}
+
 img {
     width: 100%;
     display: block;
