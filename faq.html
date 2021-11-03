@@ -12,13 +12,22 @@
     <!-- GoogleFonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap"
+        rel="stylesheet" />
     <!-- Bootstrap CSS -->
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"> -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 
     <link href="css/styles.css" rel="stylesheet" />
     <link href="css/faq.css" rel="stylesheet" />
@@ -34,7 +43,8 @@
             <img src="./imgs/favicon_io/favicon-32x32.png" class="logo" />&nbsp;
             <span class="logo-title">Smart Tuition</span>
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -69,13 +79,148 @@
     <div class="faq">
         <div class="container py-5">
             <div class="row">
-                <div class="col-lg-3 faq-sections">
-                    <div class="faq-section-btn">Request a Tutor</div>
-                    <div class="faq-section-btn">Request a Tutor</div>
+                <div class="d-none d-lg-block col-lg-3 faq-sections">
+                    <a href="#faq-tutor-anchor" class="faq-section faq-rounded">Request a Tutor</a>
+                    <a href="#faq-package-anchor" class="faq-section faq-rounded">Tuition Packages</a>
+                    <a href="#faq-subject-anchor" class="faq-section faq-rounded">Subjects</a>
+                    <a href="#faq-other-anchor" class="faq-section faq-rounded">Others</a>
                 </div>
                 <div class="col-lg-9 faq-list">
+                    <div class="accordion">
+                        <div class="d-flex flex-column">
+                            <div id="faq-tutor-1" class="collapse show">
+                                <div class="faq-answer faq-rounded">
+                                    Some placeholder content for the first accordion panel. This panel is shown by
+                                    default, thanks to the <code>.show</code> class.
+                                </div>
+                            </div>
+                            <div id="faq-tutor-anchor" class="faq-question faq-rounded" data-toggle="collapse" data-target="#faq-tutor-1">
+                                How do I request for a tutor?
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <div id="faq-tutor-2" class="collapse">
+                                <div class="faq-answer faq-rounded">
+                                    Some placeholder content for the first accordion panel. This panel is shown by
+                                    default, thanks to the <code>.show</code> class.
+                                </div>
+                            </div>
+                            <div class="faq-question faq-rounded" data-toggle="collapse" data-target="#faq-tutor-2">
+                                How tutors are assigned?
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <div id="faq-tutor-3" class="collapse">
+                                <div class="faq-answer faq-rounded">
+                                    Some placeholder content for the first accordion panel. This panel is shown by
+                                    default, thanks to the <code>.show</code> class.
+                                </div>
+                            </div>
+                            <div class="faq-question faq-rounded" data-toggle="collapse" data-target="#faq-tutor-3">
+                                Can I request for a different tutor?
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <div id="faq-tutor-4" class="collapse">
+                                <div class="faq-answer faq-rounded">
+                                    Some placeholder content for the first accordion panel. This panel is shown by
+                                    default, thanks to the <code>.show</code> class.
+                                </div>
+                            </div>
+                            <div class="faq-question faq-rounded" data-toggle="collapse" data-target="#faq-tutor-4">
+                                What can I expect from your tutors?
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <div id="faq-tutor-5" class="collapse">
+                                <div class="faq-answer faq-rounded">
+                                    Some placeholder content for the first accordion panel. This panel is shown by
+                                    default, thanks to the <code>.show</code> class.
+                                </div>
+                            </div>
+                            <div class="faq-question faq-rounded" data-toggle="collapse" data-target="#faq-tutor-5">
+                                Why should I trust your tutors?
+                            </div>
+                        </div>
+
+                        <div class="d-flex flex-column">
+                            <div id="faq-package-1" class="collapse">
+                                <div class="faq-answer faq-rounded">
+                                    Some placeholder content for the first accordion panel. This panel is shown by
+                                    default, thanks to the <code>.show</code> class.
+                                </div>
+                            </div>
+                            <div id="faq-package-anchor" class="faq-question faq-rounded" data-toggle="collapse" data-target="#faq-package-1">
+                                How do I request for a tutor?
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <div id="faq-package-2" class="collapse">
+                                <div class="faq-answer faq-rounded">
+                                    Some placeholder content for the first accordion panel. This panel is shown by
+                                    default, thanks to the <code>.show</code> class.
+                                </div>
+                            </div>
+                            <div class="faq-question faq-rounded" data-toggle="collapse" data-target="#faq-package-2">
+                                How tutors are assigned?
+                            </div>
+                        </div>
+
+                        <div class="d-flex flex-column">
+                            <div id="faq-subject-1" class="collapse">
+                                <div class="faq-answer faq-rounded">
+                                    Some placeholder content for the first accordion panel. This panel is shown by
+                                    default, thanks to the <code>.show</code> class.
+                                </div>
+                            </div>
+                            <div id="faq-subject-anchor" class="faq-question faq-rounded" data-toggle="collapse" data-target="#faq-subject-1">
+                                How do I request for a tutor?
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <div id="faq-subject-2" class="collapse">
+                                <div class="faq-answer faq-rounded">
+                                    Some placeholder content for the first accordion panel. This panel is shown by
+                                    default, thanks to the <code>.show</code> class.
+                                </div>
+                            </div>
+                            <div class="faq-question faq-rounded" data-toggle="collapse" data-target="#faq-subject-2">
+                                How tutors are assigned?
+                            </div>
+                        </div>
+
+                        <div class="d-flex flex-column">
+                            <div id="faq-other-1" class="collapse">
+                                <div class="faq-answer faq-rounded">
+                                    Some placeholder content for the first accordion panel. This panel is shown by
+                                    default, thanks to the <code>.show</code> class.
+                                </div>
+                            </div>
+                            <div id="faq-other-anchor" class="faq-question faq-rounded" data-toggle="collapse" data-target="#faq-other-1">
+                                How do I request for a tutor?
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <div id="faq-other-2" class="collapse">
+                                <div class="faq-answer faq-rounded">
+                                    Some placeholder content for the first accordion panel. This panel is shown by
+                                    default, thanks to the <code>.show</code> class.
+                                </div>
+                            </div>
+                            <div class="faq-question faq-rounded" data-toggle="collapse" data-target="#faq-other-2">
+                                How tutors are assigned?
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+        </div>
+    </div>
+
+    <div class="contact">
+        <div class="container p-5 text-center">
+            <h1>Still can’t find the question you<br>are looking for?</h1>
+            <button class="btn btn-filled-red">Contact Us</button>
         </div>
     </div>
 
@@ -88,7 +233,8 @@
                 </div>
                 <div class="col-4">
                     <form action="/subscription.php" class="btn">
-                        <input class="subscribe" type="email" id="email" name="email" placeholder="youremail@gmail.com" required />
+                        <input class="subscribe" type="email" id="email" name="email" placeholder="youremail@gmail.com"
+                            required />
                         <input class="btn" type="submit" value="Subscribe" />
                     </form>
                 </div>
@@ -99,7 +245,8 @@
             <div class="row">
                 <div class="col-lg-3">
                     <h6>
-                        <img src="./imgs/favicon_io/favicon-32x32.png" class="logo" />&nbsp; <span class="logo-title">Smart Tuition</span>
+                        <img src="./imgs/favicon_io/favicon-32x32.png" class="logo" />&nbsp; <span
+                            class="logo-title">Smart Tuition</span>
                     </h6>
                     <p>
                         Our mission is to bring your child to greater heights, not only academically
