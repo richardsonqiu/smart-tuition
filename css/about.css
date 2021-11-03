@@ -4,7 +4,7 @@
 }
 
 .banner {
-    background: var(--redDarkLinear);
+    background: var(--redMediumLinear);
 }
 
 .banner-desc {
@@ -96,6 +96,6 @@
 .what-we-do p {
     margin: 0;
     font-weight: 400;
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: var(--gray);
 }

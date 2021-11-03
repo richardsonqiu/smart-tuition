@@ -1,0 +1,25 @@
+.banner {
+    padding: 5rem;
+    background: var(--redMediumLinear);
+    color: var(--mainWhite);
+    text-align: center;
+}
+
+.banner h1 {
+    margin: 0;
+}
+
+.faq {
+    background: var(--mainWhite);
+}
+
+.faq-section-btn {
+    padding: 1em;
+    margin-bottom: 0.5rem;
+    border-radius: 10em;
+    font-size: 1.25em;
+    font-weight: bold;
+    text-align: center;
+    background: var(--redMedium);
+    color: var(--mainWhite);
+}
