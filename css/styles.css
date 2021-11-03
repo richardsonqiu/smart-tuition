@@ -89,15 +89,6 @@ a:hover {
     color: var(--mainWhite);
 }
 
-.programme h6{
-    padding: 20px 0;
-}
-.programme:hover h6 {
-    color: var(--redDark);
-}
-.programme:hover img {
-    opacity: 90%;
-}
 
 img {
     width: 100%;
@@ -132,6 +123,10 @@ img {
 
 .cream-bg {
     background-color: var(--cream);
+}
+
+.linear-bg {
+    background-color: var(--redMedium);
 }
 
 .title {
@@ -356,6 +351,7 @@ Carousel
 /* .carousel-btn-prev::after, .carousel-btn-next::after {
 
 } */
+
 
 
 /*
