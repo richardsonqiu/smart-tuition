@@ -1,0 +1,79 @@
+.banner {
+    padding: 5rem;
+    background: var(--redMediumLinear);
+    color: var(--mainWhite);
+    text-align: center;
+}
+
+.banner h1 {
+    margin: 0;
+}
+
+.faq {
+    background: var(--mainWhite);
+}
+
+.faq-rounded {
+    padding: 1em 1.5em;
+    border-radius: 2em;
+    font-size: 1.2em;
+    margin-bottom: 0.5rem;
+}
+
+.faq-section {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    background: var(--mainWhite);
+    outline: var(--redLight) solid 2px;
+    outline-offset: -2px;
+    color: var(--redLight);
+    cursor: pointer;
+}
+
+.faq-section:hover {
+    background: var(--redMedium);
+    outline: none;
+    color: var(--mainWhite);
+}
+
+.faq-section:active {
+    filter: brightness(0.95);
+}
+
+.faq-list {
+    max-height: 600px;
+    overflow: scroll;
+}
+
+.faq .card-header ~ .show {
+    background: var(--mainWhite);
+}
+
+.faq-question {
+    order: -1;
+    cursor: pointer;
+    outline: var(--redLight) solid 2px;
+    outline-offset: -2px;
+    background: var(--mainWhite);
+    color: var(--redMedium);
+    font-weight: 400;
+    transition: ease-in 0.1s;
+}
+
+.show ~ .faq-question {
+    background: var(--redMedium);
+    color: white;
+    outline: none;
+}
+
+.faq-answer {
+    background: var(--mainWhite);
+    outline: var(--redLight) solid 2px;
+    outline-offset: -2px;
+    min-height: 200px;
+}
+
+.contact {
+    background: var(--lighterCream);
+}

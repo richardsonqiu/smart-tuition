@@ -9,6 +9,7 @@ Variables
     --redMedium: #FA6970;
     --redLight: #FE969C;
     --redLinear: linear-gradient(180deg, #FEBEC1 0%, #F9595F 100%);
+    --redMediumLinear: linear-gradient(180deg, #FE969C 0%, #FA6970 100%);
     --mainWhite: #fff;
     --lighterCream: #FFFEFD;
     --cream: #FFFAF6;
@@ -141,23 +142,48 @@ Rocket Section
 .red-bg {
     background-color: var(--redDark);
     border-radius: var(--lgBorderRadius);
-    margin-top: 70px;
+    padding: 3rem 3rem;
+}
+
+.rocket-text {
+    flex: 1;
+    color: var(--mainWhite);
 }
 
 .white-title {
     font-weight: 700;
-    color: var(--mainWhite);
 }
 
-.white-desc {
-    color: var(--mainWhite);
+.rocket-img {
+    display: none;
 }
 
-.rocket {
-    width: 20%;
-    z-index: 5;
-    position: absolute;
-    /* top: 10; */
+@media (min-width: 768px) {
+    .red-bg {
+        padding: 6rem 3rem;
+    }
+    
+    .rocket-img {
+        width: 150px;
+        display: block;
+        position: relative;
+    }
+
+    .rocket-img img {
+        position: absolute;
+        height: 500px;
+        width: auto;
+        bottom: -250px;
+        left: -120px;
+    }
+
+    .rocket-text {
+        margin-right: 1rem;
+    }
+
+    .white-desc {
+        margin: 0;
+    }
 }
 
 
