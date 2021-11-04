@@ -28,6 +28,9 @@ Variables
     --smallWidth: 85vw;
     --maxWidth: 40rem;
     --fullWidth: 1170px;
+
+    /* Icons */
+    --iconBlue: #477AF3;
 }
 
 
@@ -119,6 +122,18 @@ img {
 .form-control::placeholder {
     color: red;
     font-size: 0.8rem;
+}
+
+.redDark-bg {
+    background-color: var(--redDark);
+}
+
+.redMedium-bg {
+    background-color: var(--redMedium);
+}
+
+.redLight-bg {
+    background-color: var(--redLight);
 }
 
 .cream-bg {
@@ -270,6 +285,13 @@ Buttons
 .btn-filled-white {
     color: var(--redDark);
     background: var(--mainWhite);
+    border: none;
+    padding: 0.6rem 0.8rem;
+}
+
+.btn-filled-cream {
+    color: var(--redDark);
+    background: var(--cream);
     border: none;
     padding: 0.6rem 0.8rem;
 }
