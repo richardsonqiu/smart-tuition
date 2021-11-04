@@ -139,6 +139,9 @@ Rocket Section
 ======
 */
 
+
+/* Mobile */
+
 .red-bg {
     background-color: var(--redDark);
     border-radius: var(--lgBorderRadius);
@@ -158,17 +161,18 @@ Rocket Section
     display: none;
 }
 
+
+/* Desktop */
+
 @media (min-width: 768px) {
     .red-bg {
         padding: 6rem 3rem;
     }
-    
     .rocket-img {
         width: 150px;
         display: block;
         position: relative;
     }
-
     .rocket-img img {
         position: absolute;
         height: 500px;
@@ -176,11 +180,9 @@ Rocket Section
         bottom: -250px;
         left: -120px;
     }
-
     .rocket-text {
         margin-right: 1rem;
     }
-
     .white-desc {
         margin: 0;
     }

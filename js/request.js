@@ -21,15 +21,15 @@ $(function () {
           current_fs.css({ transform: "scale(" + scale + ")" });
           next_fs.css({ left: left, opacity: opacity });
         },
-        duration: 1000,
+        duration: 800,
         complete: function () {
           current_fs.hide();
           animating = false;
+          next_fs.show();
         },
         // easing: "easeInOutBack",
       }
     );
-    next_fs.show();
     // current_fs.hide();
   });
 
@@ -59,15 +59,15 @@ $(function () {
             opacity: opacity,
           });
         },
-        duration: 1000,
+        duration: 800,
         complete: function () {
           current_fs.hide();
           animating = false;
+          previous_fs.show();
         },
         // easing: "linear",
       }
     );
-    previous_fs.show();
     // current_fs.hide();
   });
 
