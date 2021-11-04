@@ -65,6 +65,7 @@ h2,
 h3,
 h4,
 h6 {
+    /* font-family: var(--slantedFont); */
     margin-bottom: 1.25rem;
     /* letter-spacing: var(--mainSpacing); */
 }
@@ -91,6 +92,18 @@ a {
 a:hover {
     text-decoration: none;
     color: var(--redDark);
+}
+
+.programme h6 {
+    padding: 20px 0;
+}
+
+.programme:hover h6 {
+    color: var(--redDark);
+}
+
+.programme:hover img {
+    opacity: 90%;
 }
 
 img {
