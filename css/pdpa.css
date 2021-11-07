@@ -1,0 +1,19 @@
+.pdpa-banner {
+    padding: 3rem;
+    text-align: center;
+}
+
+.pdpa-content {
+    padding: 3rem;
+    text-align: left;
+}
+
+.pdpa-content h2{
+    padding-top:4rem;
+    padding-bottom: 2rem;
+    font-weight: bold;
+}
+
+.pdpa-content p{
+    line-height: 1.8em;
+}
