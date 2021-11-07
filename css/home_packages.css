@@ -1,5 +1,9 @@
 @import "styles.css";
 
+.linear-bg{
+    background:  linear-gradient(180deg, #f7a7ab 0%, #F9595F 100%);
+}
+
 .programme h6{
     padding: 20px 0;
 }
@@ -79,21 +83,25 @@
 .card-purple .btn-block{
     background: linear-gradient(180deg, #FDBEFE 0%, #CF6AFA 100%);
 }
+.package-mobile {
+    padding-top: 2rem;
+    }
 
+@media only screen and (max-width: 880px) {
 
-@media only screen and (max-width: 800px) {
-    .package-mobile {
-        padding-top: 30px;
-        }
     .card {
-        margin: 4% 1px;
-        padding: 20px 4px;
+         margin: 1rem 0;
+        padding: 3rem 0rem;
     }
-}
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 680px) {
 
     .package-mobile {
-    padding-top: 60px;
+         padding-top: 4rem;
     }
+
+    .card {
+        margin: 1rem 0;
+        padding: 2rem 2rem;
+}
 }
