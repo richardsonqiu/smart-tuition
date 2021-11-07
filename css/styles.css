@@ -126,7 +126,7 @@ img {
 }
 
 .linear-bg {
-    background-color: var(--redMedium);
+    background: var(--redLinear);
 }
 
 .title {
@@ -174,6 +174,8 @@ Navbar
 .navbar {
     background: var(--mainWhite);
     height: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     display: flex;
     align-items: center;
     box-shadow: var(--lightShadow);
