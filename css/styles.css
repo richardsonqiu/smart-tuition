@@ -18,7 +18,9 @@ Variables
     --dark: #0C162D;
     /* Secondary Color */
     --purple: #CF6AFA;
+    --purpleLinear: linear-gradient(180deg, #FDBEFE 0%, #C659F9 100%);
     --orange: #FAA768;
+    --orangeLinear: linear-gradient(180deg, #FEE4BE 0%, #F99C59 100%);
     /* --mainBackground: #f1f5f8; */
     --mainBackground: #f1f8f6;
     --mainOverlay: rgba(35, 10, 36, 0.4);
@@ -310,6 +312,20 @@ Buttons
 .btn-filled-cream {
     color: var(--redDark);
     background: var(--cream);
+    border: none;
+    padding: 0.6rem 0.8rem;
+}
+
+.btn-filled-orange {
+    color: var(--mainWhite);
+    background: var(--orangeLinear);
+    border: none;
+    padding: 0.6rem 0.8rem;
+}
+
+.btn-filled-purple {
+    color: var(--mainWhite);
+    background: var(--purpleLinear);
     border: none;
     padding: 0.6rem 0.8rem;
 }
