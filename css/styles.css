@@ -371,7 +371,12 @@ footer h6 {
     color: var(--redDark);
 }
 
-footer p {
+footer p, a{
     font-weight: 500;
     color: var(--redDark)
 }
+
+footer a:hover {
+    text-decoration: underline;
+    color: var(--redDark)
+  }
