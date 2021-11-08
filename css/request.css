@@ -126,7 +126,7 @@ ul {
     list-style: none;
 }
 
-li {
+section li {
     display: inline-block;
     margin-right: 15px;
     border: none;

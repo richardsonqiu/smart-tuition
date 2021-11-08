@@ -45,35 +45,57 @@
 <body>
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand itemtitle" href="index.html"><img src="./imgs/favicon_io/favicon-32x32.png" class="logo" />&nbsp;
-            <span class="logo-title">Smart Tuition</span>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+      <a class="navbar-brand itemtitle" href="index.html">
+          <img src="./imgs/favicon_io/favicon-32x32.png" class="logo" />&nbsp;
+          <span class="logo-title">Smart Tuition</span>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
       </button>
 
-        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-            <ul class="navbar-nav nav-links justify-content-center">
-                <li class="nav-item">
-                    <a class="nav-link item" href="subjects.html">Subjects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link item" href="tutors.html">Our Tutors</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link item" href="packages.html">Tuition Package</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link item" href="about.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link item" href="become.html">Become a Tutor</a>
-                </li>
-            </ul>
-        </div>
-        <!-- <button type="button" class="btn btn-filled-red">Request a Tutor</button> -->
-        <a href="request.html" class="btn btn-filled-red">Request a Tutor</a>
-    </nav>
+      <a href="request.html" class="btn btn-filled-red order-lg-4">Request a Tutor</a>
+
+      <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+          <ul class="navbar-nav nav-links justify-content-center">
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="subjects-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Subjects
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="subjects-dropdown">
+                      <a class="dropdown-item" href="subject-primary.html">Primary</a>
+                      <a class="dropdown-item" href="subject-lower-sec.html">Lower Secondary</a>
+                      <a class="dropdown-item" href="subject-upper-sec.html">Upper Secondary</a>
+                  </div>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="tutors-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Our Tutors
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="tutors-dropdown">
+                      <a class="dropdown-item" href="tutors.html">Meet Our Tutors</a>
+                      <a class="dropdown-item" href="testimonials.html">Testimonials</a>
+                  </div>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link item" href="packages.html">Tuition Package</a>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="about-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      About
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="about-dropdown">
+                      <a class="dropdown-item" href="about.html">Our Stories</a>
+                      <a class="dropdown-item" href="faq.html">FAQ for Parents</a>
+                      <a class="dropdown-item" href="contact.html">Contact Us</a>
+                  </div>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link item" href="become.html">Become a Tutor</a>
+              </li>
+          </ul>
+      </div>
+  </nav>
 
     <section>
         <div class="container-fluid wrap cream-bg">
