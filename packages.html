@@ -19,7 +19,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
     <link href="css/styles.css" rel="stylesheet" />
-    <!-- <link href="css/home-styles.css" rel="stylesheet" /> -->
+    <link href="css/home_packages.css" rel="stylesheet" />
 
     <!-- Favicon -->
     <link href="./imgs/favicon_io/favicon.ico" rel="shortcut icon" type="image/x-icon" />
@@ -27,12 +27,14 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand itemtitle" href="index.html"><img src="./imgs/favicon_io/favicon-32x32.png" class="logo"/>&nbsp; <span class="logo-title">Smart Tuition</span>
+        <a class="navbar-brand itemtitle" href="index.html"><img src="./imgs/favicon_io/favicon-32x32.png" class="logo" />&nbsp;
+            <span class="logo-title">Smart Tuition</span>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
+      
         <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
             <ul class="navbar-nav nav-links justify-content-center">
                 <li class="nav-item">
@@ -52,133 +54,179 @@
                 </li>
             </ul>
         </div>
-        <button type="button" class="btn btn-linear">Request a Tutor</button>
+        <!-- <button type="button" class="btn btn-filled-red">Request a Tutor</button> -->
+        <a href="request.html" class="btn btn-filled-red">Request a Tutor</a>
     </nav>
 
-
-    <div class="container-fluid wrap">
-      <div class="row">
-        <div class="col-12">
-          <h2>Choose the perfect package for your child</h2>
-          <h6>Let us help you find your path to success</h6>
-          <h6>First-time students get 2 lessons FREE</h6>
-       </div>
-      </div>
-
-      <div class="row">
-        <div class="col-4">
-          <h4>Standard</h4>
-          <p>Students aiming to try classes</p>
-          <h6>1 Subject</h6>
-          <ul>
-              <li>1-1 tutoring</li>
-              <li><b>FREE</b> practice materials</li>
-              <li><b>1 FREE</b> 2h-consultation</li>
-          </ul>  
-          <h6>$10 OFF</h6>
-          <button>Select Plan</button>
-       </div>
-       
-       <div class="col-4">
-          <h4>Scholar</h4>
-          <p>Students aiming for top grades</p>
-          <h6>ALL Subject</h6>
-          <ul>
-              <li>1-1 tutoring</li>
-              <li><b>FREE</b> practice materials</li>
-              <li><b>8 FREE</b> 2h-consultation</li>
-              <li><b>UNLIMITED</b> use of eWhiteboard</li>
-              <li><b>EXCLUSIVE</b> classes and events</li>
-          </ul>  
-          <h6>30% OFF</h6>
-          <button>Select Plan</button>
+    <div class="container-fluid linear-bg wrap" style="padding-bottom: 0;">
+        <div class="row align-items-center wrap packages" style="padding-top:0">
+            <div class="col-12" style="text-align: center; color: white">
+              <h2 class="title">Choose the perfect package for your child</h2>
+              <h6>Let us help you find your path to success</h6>
+              <h6>First-time students get <u>2 lessons <b>FREE</b></u></h6>
+            </div>
         </div>
-
-        <div class="col-4">
-          <h4>Learner</h4>
-          <p>Students aiming to improve</p>
-          <h6>1 Subject</h6>
-          <ul>
-            <li>1-1 tutoring</li>
-            <li><b>FREE</b> practice materials</li>
-            <li><b>3 FREE</b> 2h-consultation</li>
-            <li><b>UNLIMITED</b> use of eWhiteboard</li>
-          </ul>  
-          <h6>15% OFF</h6>
-          <button>Select Plan</button>
-        </div>
-      </div>
-      <p>*Each package lasts for 1 term of 3 months</p>
-    </div>
-
-
-    <div class="container-fluid wrap">
-      <div class="row">
-        <div class="col-12">
-          <h2>Let us help you find the perfect package</h2>
-          <p>Unsure which package to pick?</p>
-          <button>Read FAQ</button><button>Contact Us</button>
-       </div>
-      </div>
-    </div>
-
-    <footer>
-
-      <div class="container-fluid wrap">
-        <div class="row">
-          <div class="col-8">
-            <h6>Subscribe to our FREE newsletter</h6>
-            <h5>Get insights to the latest practice questions</h5>
-          </div>
-          <div class="col-4">
-            <form action="/subscription.php" class="btn">
-              <input class="subscribe" type="email" id="email" name="email" placeholder="youremail@gmail.com" required>
-              <input class="btn" type="submit" value="Subscribe">
-            </form>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="container-fluid wrap">
-        <div class="row">
-          <div class="col-lg-3">
-            <h6><img src="./imgs/favicon_io/favicon-32x32.png" class="logo"/>&nbsp; <span class="logo-title">Smart Tuition</span>
-            </h6>   
-            <p>Our mission is to bring your child to greater heights, not only academically</p>
-          </div>
-          <div class="col-1"></div>
-          
-          <div class="col-lg-4">
-            <h6>Contacts</h6>
-            <p>Mon - Fri : 8.00am - 6.00pm</p>
-            <p>123 Orchard Central, #12-34</p>
-            <p>+65 8123 4567</p>
-            <p>info@smarttuition.com</p>
-          </div>
-          
-          <div class="col-lg-4">
-            <h6>Quick Links</h6>
-            <a href=".html"><p>Subjects</p></a>
-            <a href=".html"><p>Our Tutors</p></a>
-            <a href="packages.html"><p>Tuition Packages</p></a>
-            <a href=".html"><p>About</p></a>
-            <a href=".html"><p>Become a Tutor</p></a>
-            <a href=".html"><p>Request a Tutor</p></a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-4">
-            <p>All Rights Reserved 2021 &copy; Smart Tuition</p>
-          </div>
-          <div class="cols-4">
-            <a href=".html"><p>Privacy Policy</p></a>
-            
-          </div>
-        </div>
-      </div>
-    </footer>
-
+        <!-- Cards -->
+        <div class="row align-items-center packages" style="text-align: center; padding-top: 0">
+            <div class="col-md-4">
+                <div class="card card-orange bg-white text-center">
+                <div class="card-header">
+                    <h4>Standard</h4>
+                    <p>Students aiming to try classes</p>
+                </div>
+                <div class="card-body">
+                            <h6>1 Subject</h6>
+                            <ul>
+                                <li>1-1 tutoring</li>
+                                <li><b>FREE</b> practice materials</li>
+                                <li><b>1 FREE</b> 2h-consultation</li>
+                            </ul>  
+                </div>
+                <div class="card-footer">
+                            <h6>$10 OFF</h6>
+                            <a href="#" class="btn btn-block">Select Plan</a>
+                </div>
+                </div>
+            </div>
     
+            <div class="col-md-4">
+            <div class="card card-red text-center">
+            <div class="card-header">
+                <h4>Scholar</h4>
+                <p>Students aiming for top grades</p>
+            </div>
+            <div class="card-body">
+                <h6>ALL Subject</h6>
+                <ul>
+                    <li>1-1 tutoring</li>
+                    <li><b>FREE</b> practice materials</li>
+                    <li><b>8 FREE</b> 2h-consultation</li>
+                    <li><b>UNLIMITED</b> use of eWhiteboard</li>
+                    <li><b>EXCLUSIVE</b> classes and events</li>
+                </ul>  
+            </div>
+            <div class="card-footer">
+                <h6>30% OFF</h6>
+                    <a href="#" class="btn btn-block">Select Plan</a>
+            </div>
+            </div>
+            </div>
+    
+            <div class="col-md-4">
+            <div class="card card-purple text-center">
+                <div class="card-header">
+                <h4>Learner</h4>
+                <p>Students aiming to improve</p>
+                </div>
+                <div class="card-body">
+                <h6>1 Subject</h6>
+                <ul>
+                    <li>1-1 tutoring</li>
+                    <li><b>FREE</b> practice materials</li>
+                    <li><b>3 FREE</b> 2h-consultation</li>
+                    <li><b>UNLIMITED</b> use of eWhiteboard</li>
+                </ul>  
+                </div>
+                <div class="card-footer">
+                <h6>15% OFF</h6>
+                    <a href="#" class="btn btn-orange btn-block">Select Plan</a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid wrap ">
+        <div class="row">
+          <div class="col-12 package-mobile" style = "text-align: center;">
+            <p>*Each package lasts for 1 term of 3 months</p>
+             <h2 class="title">Let us help you find the perfect package</h2>
+             <p>Unsure which package to pick?</p>
+             <button class="btn btn-filled-red" type="button">Read FAQ</button>
+             <button class="btn btn-filled-red" type="button">Contact Us</button>
+          </div>
+        </div>
+    </div>
+
+
+    <footer >
+        <div class="container-fluid wrap">
+            <div class="row">
+                <div class="col-8">
+                    <h6>Subscribe to our FREE newsletter</h6>
+                    <h5>Get insights to the latest practice questions</h5>
+                </div>
+                <div class="col-4">
+                    <form action="/subscription.php" class="btn">
+                        <!-- <input class="subscribe" type="email" id="email" name="email" placeholder="youremail@gmail.com" required />
+                        <input class="btn" type="submit" value="Subscribe" /> -->
+                        <div class="input-group mb-3 col-xs-5">
+                            <input type="text" class="form-control col-7" placeholder="youremail@email.com" />
+                            <div class="input-group-append">
+                                <button class="btn btn-filled-red" type="button">
+                    Join us now!
+                  </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid wrap">
+            <div class="row">
+                <div class="col-lg-3">
+                    <h6>
+                        <img src="./imgs/favicon_io/favicon-32x32.png" class="logo" />&nbsp; <span class="logo-title">Smart Tuition</span>
+                    </h6>
+                    <p>
+                        Our mission is to bring your child to greater heights, not only academically
+                    </p>
+                </div>
+                <div class="col-1"></div>
+
+                <div class="col-lg-4">
+                    <h6>Contacts</h6>
+                    <p>Mon - Fri : 8.00am - 6.00pm</p>
+                    <p>123 Orchard Central, #12-34</p>
+                    <p>+65 8123 4567</p>
+                    <p>info@smarttuition.com</p>
+                </div>
+
+                <div class="col-lg-4">
+                    <h6>Quick Links</h6>
+                    <a href="subjects.html">
+                        <p>Subjects</p>
+                    </a>
+                    <a href="tutors.html">
+                        <p>Our Tutors</p>
+                    </a>
+                    <a href="packages.html">
+                        <p>Tuition Packages</p>
+                    </a>
+                    <a href="about.html">
+                        <p>About</p>
+                    </a>
+                    <a href="become.html">
+                        <p>Become a Tutor</p>
+                    </a>
+                    <a href="request.html">
+                        <p>Request a Tutor</p>
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <p>All Rights Reserved 2021 &copy; Smart Tuition</p>
+                </div>
+                <div class="col-md-8">
+                    <a href="PDPA.html">Privacy Policy
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+<script type="text/javascript" src="js/carousel.js"></script>
 </body>
+
 </html>
