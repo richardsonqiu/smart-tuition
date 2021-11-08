@@ -1,0 +1,107 @@
+@import "styles.css";
+
+.linear-bg{
+    background:  linear-gradient(180deg, #f7a7ab 0%, #F9595F 100%);
+}
+
+.programme h6{
+    padding: 20px 0;
+}
+.programme:hover h6 {
+    color: var(--redDark);
+}
+.programme:hover img {
+    opacity: 90%;
+}
+
+.packages {
+    position: relative;
+    top: 40px;
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    padding: 20px 12px;
+    margin: 2%;
+    color: var(--gray);
+}
+
+.card-header, .card-footer {
+    background-color: white !important;
+    border: 0;
+} 
+
+.card-body {
+    padding-top: 0;
+}
+
+.card h4, .card h6{
+    font-weight: bold;
+}
+
+.card ul{
+    margin: 0 0 0 2rem;
+    font-weight: 400;
+    text-align: left;
+    vertical-align: middle;
+    line-height: 3rem;
+    list-style-image:url("../imgs/tick-icon.png");
+}
+
+.card li {
+    padding-left: 0.5rem;
+}
+
+
+/* Setting colors for cards */
+.btn-block {
+    border: 0;
+    color: var(--mainWhite)
+}
+
+.card-orange h4, .card-orange h6{
+    color: #FAA768;
+}
+
+.card-red h4, .card-red h6{
+    color: var(--redDark);
+}
+
+.card-purple h4, .card-purple h6{
+    color: #CF6AFA;
+}
+
+
+.card-orange .btn-block{
+    background: linear-gradient(180deg, #FEE4BE 0%, #FAA768 100%);
+}
+.card-red .btn-block{
+    background: var(--redLinear);
+}
+.card-purple .btn-block{
+    background: linear-gradient(180deg, #FDBEFE 0%, #CF6AFA 100%);
+}
+.package-mobile {
+    padding-top: 2rem;
+    }
+
+@media only screen and (max-width: 880px) {
+
+    .card {
+         margin: 1rem 0;
+        padding: 3rem 0rem;
+    }
+
+@media only screen and (max-width: 680px) {
+
+    .package-mobile {
+         padding-top: 4rem;
+    }
+
+    .card {
+        margin: 1rem 0;
+        padding: 2rem 2rem;
+}
+}

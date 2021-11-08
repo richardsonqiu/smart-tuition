@@ -99,17 +99,6 @@ a:hover {
     color: var(--redDark);
 }
 
-.programme h6 {
-    padding: 20px 0;
-}
-
-.programme:hover h6 {
-    color: var(--redDark);
-}
-
-.programme:hover img {
-    opacity: 90%;
-}
 
 img {
     width: 100%;
@@ -156,6 +145,10 @@ img {
 
 .cream-bg {
     background-color: var(--cream);
+}
+
+.linear-bg {
+    background: var(--redLinear);
 }
 
 .title {
@@ -228,6 +221,8 @@ Navbar
 .navbar {
     background: var(--mainWhite);
     height: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     display: flex;
     align-items: center;
     box-shadow: var(--lightShadow);
@@ -433,6 +428,7 @@ Carousel
 } */
 
 
+
 /*
 ======
 Footer
@@ -448,7 +444,12 @@ footer h6 {
     color: var(--redDark);
 }
 
-footer p {
+footer p, a{
     font-weight: 500;
     color: var(--redDark)
 }
+
+footer a:hover {
+    text-decoration: underline;
+    color: var(--redDark)
+  }
