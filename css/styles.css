@@ -21,6 +21,7 @@ Variables
     --purpleLinear: linear-gradient(180deg, #FDBEFE 0%, #C659F9 100%);
     --orange: #FAA768;
     --orangeLinear: linear-gradient(180deg, #FEE4BE 0%, #F99C59 100%);
+    --green: #5FCE4C;
     /* --mainBackground: #f1f5f8; */
     --mainBackground: #f1f8f6;
     --mainOverlay: rgba(35, 10, 36, 0.4);

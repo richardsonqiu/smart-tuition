@@ -1,20 +1,26 @@
-/* .container-text-in-img {
-    position: relative;
-    text-align: center;
-    color: white;
+.tutor-highlight {
+
 }
 
-.container-text-in-img h3 {
-    margin: 0;
-}
-
-.text-centre-img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-} */
-
-.banner h1 {
+.tutor-name {
     color: var(--redDark);
+    margin-bottom: 0;
+}
+
+.tutor-position {
+    font-weight: bold;
+}
+
+.qualification {
+    margin-top: 1.25rem;
+}
+
+.teacher-quote {
+    text-align: center;
+    color: var(--redDark);
+    font-weight: bold;
+}
+
+.icon-img {
+    color: var(--green);
 }
