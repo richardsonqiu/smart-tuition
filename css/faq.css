@@ -41,9 +41,10 @@
     filter: brightness(0.95);
 }
 
-.faq-list {
+.accordion {
     max-height: 600px;
     overflow: scroll;
+    position: relative;
 }
 
 .faq .card-header ~ .show {
@@ -71,7 +72,8 @@
     background: var(--mainWhite);
     outline: var(--redLight) solid 2px;
     outline-offset: -2px;
-    min-height: 200px;
+    /* min-height: 200px; */
+    font-weight: 400;
 }
 
 .contact {
