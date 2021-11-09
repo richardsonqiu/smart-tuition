@@ -18,7 +18,9 @@ Variables
     --dark: #0C162D;
     /* Secondary Color */
     --purple: #CF6AFA;
+    --purpleLinear: linear-gradient(180deg, #FDBEFE 0%, #C659F9 100%);
     --orange: #FAA768;
+    --orangeLinear: linear-gradient(180deg, #FEE4BE 0%, #F99C59 100%);
     /* --mainBackground: #f1f5f8; */
     --mainBackground: #f1f8f6;
     --mainOverlay: rgba(35, 10, 36, 0.4);
@@ -32,6 +34,9 @@ Variables
     --smallWidth: 85vw;
     --maxWidth: 40rem;
     --fullWidth: 1170px;
+
+    /* Icons */
+    --iconBlue: #477AF3;
 }
 
 
@@ -137,6 +142,18 @@ img {
     font-size: 0.8rem;
 }
 
+.redDark-bg {
+    background-color: var(--redDark);
+}
+
+.redMedium-bg {
+    background-color: var(--redMedium);
+}
+
+.redLight-bg {
+    background-color: var(--redLight);
+}
+
 .cream-bg {
     background-color: var(--cream);
 }
@@ -214,11 +231,9 @@ Navbar
 
 .navbar {
     background: var(--mainWhite);
-    height: 5rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    display: flex;
-    align-items: center;
+    padding: 1rem 2rem;
+    /* display: flex;
+    align-items: center; */
     box-shadow: var(--lightShadow);
 }
 
@@ -238,22 +253,29 @@ Navbar
     text-align: center;
 }
 
-.nav-links a {
+a.nav-link {
     text-transform: capitalize;
     display: inline-block;
-    margin-right: 0.5rem;
+    margin: 0 0.25rem;
     font-weight: 400;
     font-size: 1rem;
-    padding: 0.25rem 0.5rem;
     transition: var(--mainTransition);
 }
 
 .nav-links a:hover {
-    color: var(--redDark);
+    /* color: var(--redDark); */
     text-decoration: underline var(--redDark) 2px;
     text-underline-offset: 0.5rem;
 }
 
+.dropdown-item {
+    color: rgba(0, 0, 0, .5);
+    transition: var(--mainTransition);
+}
+
+.dropdown-item:hover {
+    background-color: var(--mainWhite);
+}
 
 /*
 ======
@@ -285,27 +307,48 @@ Buttons
 }
 
 .btn-filled-red {
-    color: var(--mainWhite);
-    background: var(--redLinear);
+    color: var(--mainWhite) !important;
+    background: var(--redLinear) !important;
     border: none;
     padding: 0.6rem 0.8rem;
 }
 
 .btn-filled-white {
-    color: var(--redDark);
+    color: var(--redDark) !important;
     background: var(--mainWhite);
     border: none;
     padding: 0.6rem 0.8rem;
 }
 
+.btn-filled-cream {
+    color: var(--redDark) !important;
+    background: var(--cream);
+    border: none;
+    padding: 0.6rem 0.8rem;
+}
+
+.btn-filled-orange {
+    color: var(--mainWhite) !important;
+    background: var(--orangeLinear);
+    border: none;
+    padding: 0.6rem 0.8rem;
+}
+
+.btn-filled-purple {
+    color: var(--mainWhite) !important;
+    background: var(--purpleLinear);
+    border: none;
+    padding: 0.6rem 0.8rem;
+}
+
 .btn-unfilled-red {
-    color: var(--redLight);
+    color: var(--redLight) !important;
     background: transparent;
     border: 2px solid var(--redLight);
 }
 
 .btn-unfilled-white {
-    color: var(--mainWhite);
+    color: var(--mainWhite) !important;
     background: transparent;
     border: 2px solid var(--mainWhite);
 }
