@@ -34,7 +34,6 @@ Variables
     --smallWidth: 85vw;
     --maxWidth: 40rem;
     --fullWidth: 1170px;
-
     /* Icons */
     --iconBlue: #477AF3;
 }
@@ -167,6 +166,11 @@ img {
 }
 
 
+/* .smallerimg {
+    width: 70%;
+} */
+
+
 /*
 ======
 Rocket Section
@@ -276,6 +280,7 @@ a.nav-link {
 .dropdown-item:hover {
     background-color: var(--mainWhite);
 }
+
 
 /*
 ======
@@ -444,7 +449,6 @@ Carousel
 } */
 
 
-
 /*
 ======
 Footer
@@ -460,7 +464,8 @@ footer h6 {
     color: var(--redDark);
 }
 
-footer p, a{
+footer p,
+a {
     font-weight: 500;
     color: var(--redDark)
 }
@@ -468,4 +473,4 @@ footer p, a{
 footer a:hover {
     text-decoration: underline;
     color: var(--redDark)
-  }
+}
