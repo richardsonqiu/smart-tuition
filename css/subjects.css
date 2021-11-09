@@ -43,25 +43,12 @@
     transform: translate(-50%, -50%);
 }
 
-/* .desc {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-} */
-
-/* .desc h1, .desc h2, .desc h3, .desc h4, .desc h5, .desc p {
-    margin: 20px;
-} */
-
 .subject img {
     margin: 40px 0 20px 0;
 }
 
-.subject h3 {
-    margin: 0;
-}
-
-.subject h5 {
+.subject .subject-title {
+    text-align: center;
     color: var(--redDark);
     font-weight: bold;
 }
