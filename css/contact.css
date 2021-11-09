@@ -1,0 +1,54 @@
+h2 {
+    font-weight: bold;
+}
+
+.banner {
+    padding: 5rem;
+    background: var(--redMediumLinear);
+    color: var(--mainWhite);
+    text-align: center;
+}
+
+.banner h1 {
+    margin: 0;
+}
+
+.contact {
+    color: var(--redMedium);
+}
+
+.contact label {
+    display: block;
+    font-weight: 400;
+    color: var(--dark);
+    margin-bottom: 0.25em;
+}
+
+.contact input, .contact select, .contact textarea {
+    width: 100%;
+    border: 2px solid var(--redMedium);
+    border-radius: var(--smBorderRadius);
+    padding: 0.5rem 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.contact select:invalid {
+    color: gray;
+}
+
+.location h2 {
+    margin-bottom: 1rem;
+}
+
+.location p {
+    display: flex;
+    align-items: center;
+    color: var(--gray);
+    margin-bottom: 1em;
+}
+
+.location p img {
+    height: 1.2em;
+    width: auto;
+    margin-right: 0.5em;
+}

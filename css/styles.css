@@ -9,11 +9,16 @@ Variables
     --redMedium: #FA6970;
     --redLight: #FE969C;
     --redLinear: linear-gradient(180deg, #FEBEC1 0%, #F9595F 100%);
+    --redMediumLinear: linear-gradient(180deg, #FE969C 0%, #FA6970 100%);
     --mainWhite: #fff;
     --lighterCream: #FFFEFD;
     --cream: #FFFAF6;
     --gray: #7B7A83;
+    --lighterGray: #a1a1a1;
     --dark: #0C162D;
+    /* Secondary Color */
+    --purple: #CF6AFA;
+    --orange: #FAA768;
     /* --mainBackground: #f1f5f8; */
     --mainBackground: #f1f8f6;
     --mainOverlay: rgba(35, 10, 36, 0.4);
@@ -59,7 +64,6 @@ h1,
 h2,
 h3,
 h4,
-h5,
 h6 {
     /* font-family: var(--slantedFont); */
     margin-bottom: 1.25rem;
@@ -81,14 +85,26 @@ ul {
 
 a {
     text-decoration: none;
+    font-weight: 400;
     color: var(--dark);
 }
 
 a:hover {
     text-decoration: none;
-    color: var(--mainWhite);
+    color: var(--redDark);
 }
 
+.programme h6 {
+    padding: 20px 0;
+}
+
+.programme:hover h6 {
+    color: var(--redDark);
+}
+
+.programme:hover img {
+    opacity: 90%;
+}
 
 img {
     width: 100%;
@@ -140,28 +156,53 @@ Rocket Section
 ======
 */
 
+
+/* Mobile */
+
 .red-bg {
     background-color: var(--redDark);
     border-radius: var(--lgBorderRadius);
-    margin-top: 70px;
+    padding: 3rem 3rem;
+}
+
+.rocket-text {
+    flex: 1;
+    color: var(--mainWhite);
 }
 
 .white-title {
     font-weight: 700;
-    color: var(--mainWhite);
 }
 
-.white-desc {
-    color: var(--mainWhite);
+.rocket-img {
+    display: none;
 }
 
 
-.rocket {
-    width: 20%;
-    z-index: 5;
-    position: absolute;
-    transform: translate(0px, -36px);
-    /* top: 10; */
+/* Desktop */
+
+@media (min-width: 768px) {
+    .red-bg {
+        padding: 6rem 3rem;
+    }
+    .rocket-img {
+        width: 150px;
+        display: block;
+        position: relative;
+    }
+    .rocket-img img {
+        position: absolute;
+        height: 500px;
+        width: auto;
+        bottom: -250px;
+        left: -120px;
+    }
+    .rocket-text {
+        margin-right: 1rem;
+    }
+    .white-desc {
+        margin: 0;
+    }
 }
 
 
@@ -269,8 +310,13 @@ Buttons
     border: 2px solid var(--mainWhite);
 }
 
-.btn:hover {
+.btn:hover,
+.btn:focus {
     opacity: 80%;
+}
+
+.btn:before {
+    color: var(--redDark);
 }
 
 .btn-arrow {
