@@ -14,7 +14,8 @@ h2 {
 }
 
 .contact {
-    color: var(--redMedium);
+    background-color: var(--lighterCream);
+    color: var(--dark);
 }
 
 .contact label {
@@ -24,12 +25,21 @@ h2 {
     margin-bottom: 0.25em;
 }
 
+.contact label i {
+    color: var(--redDark);
+}
+
 .contact input, .contact select, .contact textarea {
     width: 100%;
-    border: 2px solid var(--redMedium);
+    border: 2px solid var(--lighterGray);
     border-radius: var(--smBorderRadius);
     padding: 0.5rem 0.5rem;
     margin-bottom: 1.5rem;
+}
+
+.contact input:focus, .contact select:focus, .contact textarea:focus {
+    outline: none !important;
+    border-color: var(--redMedium);
 }
 
 .contact select:invalid {
