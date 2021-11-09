@@ -122,15 +122,3 @@
     font-size: 2rem;
     margin-bottom: 0;
 }
-
-.orange h1, .orange h2, .orange h3, .orange h4, .orange h5 {
-    color: var(--orange);
-}
-
-.purple h1, .purple h2, .purple h3, .purple h4, .purple h5 {
-    color: var(--purple);
-}
-
-/* .linear-bg {
-    background: linear-gradient(180deg, #FEBEC1 0%, #F9595F 100%);   
-} */
