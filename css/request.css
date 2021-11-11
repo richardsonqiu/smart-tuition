@@ -101,7 +101,7 @@ PROGRESS BAR
     color: #fff;
     background: transparent;
     border-radius: 100%;
-    margin: 0 auto 5px auto;
+    margin: 10px auto 10px auto;
     /* border: 2px solid #ECECEC; */
 }
 
@@ -113,6 +113,7 @@ PROGRESS BAR
     color: var(--mainWhite);
     background-color: var(--redDark);
     transition: all var(--mainTransition);
+    padding-bottom: 13px;
 }
 
 
@@ -146,8 +147,8 @@ select {
 
 input[type=text]:focus,
 input[type=email]:focus {
-  outline: none !important;
-  border-color: var(--redMedium);
+    outline: none !important;
+    border-color: var(--redMedium);
 }
 
 input[type=radio] {
