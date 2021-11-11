@@ -138,7 +138,6 @@ input[type=date],
 option,
 select {
     border: 2px solid var(--lighterGray);
-    opacity: 60%;
     border-radius: var(--smBorderRadius);
     padding: 8px;
     width: 100%;
@@ -147,8 +146,8 @@ select {
 
 input[type=text]:focus,
 input[type=email]:focus {
-    opacity: 60%;
-    border: 2px solid var(--gray);
+  outline: none !important;
+  border-color: var(--redMedium);
 }
 
 input[type=radio] {
