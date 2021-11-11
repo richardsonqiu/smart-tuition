@@ -21,7 +21,7 @@ $(function () {
           current_fs.css({ transform: "scale(" + scale + ")" });
           next_fs.css({ left: left, opacity: opacity });
         },
-        duration: 800,
+        duration: 600,
         complete: function () {
           current_fs.hide();
           animating = false;
@@ -59,7 +59,7 @@ $(function () {
             opacity: opacity,
           });
         },
-        duration: 800,
+        duration: 600,
         complete: function () {
           current_fs.hide();
           animating = false;
@@ -94,7 +94,7 @@ $(function () {
           current_fs.css({ transform: "scale(" + scale + ")" });
           next_fs.css({ left: left, opacity: opacity });
         },
-        duration: 1000,
+        duration: 600,
         complete: function () {
           current_fs.hide();
           animating = false;
