@@ -166,6 +166,10 @@ img {
     font-weight: 700;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 
 /* .smallerimg {
     width: 70%;
